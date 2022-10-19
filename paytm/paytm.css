@@ -1,0 +1,274 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+  padding: 0px 10px;
+  align-items: center;
+  background-color:#fff ;
+  cursor: pointer;
+}
+.navbar .logo img{
+  width: 150px;
+  height: 50px;
+}
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+}
+.navbar ul li{
+  justify-content: space-between;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  align-items: center;
+}
+.navbar ul li:hover{
+background-color:  rgb(231, 238, 244) ;
+border-radius: 50px;
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 530;
+  font-size: 18px;
+  align-items: center;
+}
+
+.navbar ul .login a {
+  background: rgb(6, 152, 192);
+  border-radius: 50px;
+  padding: 10px;
+}
+.navbar ul .login a i
+{
+  
+  margin: 5px;
+  background-color: rgb(21, 5, 125);
+  border-radius: 50px;
+  color: #fff;
+  padding: 8px;
+  margin:  0px 0px 0px 5px;
+  font-weight: 800;
+}
+
+
+.hero .top{
+  text-align: center;
+  background-color: rgb(231, 238, 244);
+  padding: 10px;
+  
+}
+.hero .king{
+  display: flex;
+  margin: 100px 0px 0px 30px;
+  padding: 30px 30px;
+  width: 300px;
+  font-weight: 600;
+  align-items: center;
+}
+.hero .color{
+  margin: 0px 30px;
+  padding: 0px 30px;
+  width: 700px;
+}
+.hero .primary{
+  font-size: 65px;
+  color:rgb(6, 152, 192) ;
+}
+.hero .secoundry{
+  font-size: 65px;
+  color: rgb(21, 5, 125) ;
+}
+
+.hero .para{
+  margin: 20px 30px;
+  padding: 0px 30px;
+  width: 600px;
+  font-weight: 500;
+  font-size:20px ;
+}
+.para span{
+  color:rgb(6, 152, 192) ;
+  }
+  .hero .parag .down{
+    text-decoration: none;
+    margin: 60px ;
+    padding:20px;
+    background-color: #000; 
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    align-items: center;
+    width: 300px;
+  
+  }
+  .hero .parag a{
+    color: #fff;
+  }
+  .hero .parag .down i{
+    margin: 15px;
+   
+  }
+  .hero .parag :hover{
+    background-color: rgb(231, 238, 244) ;
+    border: 2px solid #000;
+  }
+  .hero .parag .down:hover {
+    color:#000 ;
+  }
+  .container{
+    display: flex;
+  
+  }
+  .right{
+    margin: 150px 10px;
+    width: 500px;
+    height: 550px;
+  }
+  .container2{
+    background-color: rgb(21, 5, 125);
+    padding: 30px;
+    
+  }
+  .nani {
+    margin-left: 40%;
+    margin-right: 35%;
+  }
+  .nani img{
+    margin-top: 30%;
+    margin-left: 10px;
+  }
+  .text{
+    margin-left: 30%;
+    margin-right: 25%;
+    padding: 20px;
+    color: #fff;
+  }
+  .text h1{
+    font-size: 35px;
+    font-weight: 600;
+    
+  }
+  .text ul{
+    display: flex;
+    margin: 0px;
+    
+  }
+  .text ul p{
+    margin-top: 30px;
+    margin-right: 25px;
+    flex-direction: row;
+  }
+  .text ul p i{
+    margin: 5px;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+    
+  }
+  .card{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
+  }
+  .card .one{
+
+  position: relative;
+    background: #fff;
+    width: 300px;
+    height: 150px;
+    border: solid #fff;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    
+  }
+  .card .one h1 {
+    position: absolute;
+    top: 10px;
+    margin-left: 60px ;
+  
+    text-align: start;
+     }
+     .card .one .user{
+      position: absolute;
+       top: 40px;
+        margin-left: 60px;
+      font-size: 10px;
+       }
+       .card .one .fback{
+        width: 200px;
+        margin: 10px 40px;
+       }
+       .twitt{
+        position: absolute;
+        right: 15px;
+        top: 5px;
+       }
+       .money{
+        background-color: rgb(6, 152, 192);
+       }
+       .money .head{
+        color: #fff;
+        text-align: center;
+        padding: 60px;
+       }
+       .head h1{
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+        margin-top: 30px ;
+        margin-left: 220px;
+        margin-right:220px ;
+        
+    
+       }
+       .money p{
+        margin-top: 20px;
+       }
+       .crd{
+        display: flex;
+        margin: 10px 100px;
+       }
+       .crd .two{
+         width: 350px;
+         margin: 10px 50px;
+         padding: 10px;
+         
+       }
+       .two img{
+    
+        position: relative;
+        left: 50px;
+        
+      
+       
+       }
+       .two  {
+        color: #fff;
+      
+      
+      
+       }
+       .two  p {
+        position: relative;
+        left: 30px;
+        
+        text-align: center;
+       }
+       .two  h1 {
+        position: relative;
+        left: 30px;
+        
+        text-align: center;
+       }
